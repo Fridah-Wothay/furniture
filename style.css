@@ -1,0 +1,302 @@
+
+#top{
+    background-image: url(image/hook.avif);
+    height: 500px;
+    width: 900px;
+    color: white;
+    margin-left: 15%;
+}
+#nav{
+    display: flex;
+    gap: 5%;
+}
+#choose{
+text-align: center;
+margin-top:  5%
+}
+#many{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    margin-top: 5%;
+    
+}
+#product{
+    text-align: center;
+    margin-top: 2%;
+}
+#pillow{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+#our{
+    text-align: center;
+    margin-top: 5%;
+
+}
+#coach{
+    display: flex;
+    justify-content: center;
+}
+#blank{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+#all{
+    background-color: blueviolet;
+    text-align: center;
+    margin-top: 5%;
+}
+#words{
+    display: flex;
+    justify-content: center;
+    
+}
+#blogs{
+    text-align: center;
+    margin-top: 5%;
+}
+#Tips{
+    display: flex;
+    justify-content: center;
+}
+.grid{
+    display: grid;
+    grid-template-columns:1 1fr ;
+}
+#of{
+    text-align: center;
+    margin-top: 10%;
+}
+#flex{
+    background-color: rgb(11, 32, 32);
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    gap: 15%
+    
+
+}
+#button1{
+    color: aliceblue;
+    background-color: coral;
+    border-radius: 25%;
+    
+}
+
+
+
+#faq{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+#button2{
+    color: antiquewhite;
+    background-color: coral;
+    border-radius: 25%;
+}
+#put{
+    text-align: center;
+}
+
+
+    
+@media screen and (max-width: 650px){
+    #box{
+    
+        gap: 5%;
+    }
+    #choose{
+    text-align: center;
+    margin-top:  5%
+    }
+    #many{
+        
+        gap: 10%;
+        margin-top: 5%;
+        
+    }
+    #product{
+        text-align: center;
+        margin-top: 2%;
+    }
+    #pillow{
+        
+        
+        gap: 5%;
+    }
+    #our{
+        text-align: center;
+        margin-top: 5%;
+    
+    }
+    #coach{
+        flex-wrap: wrap;
+    }
+    #blank{
+        flex-wrap:wrap ;
+        margin-top: 5%;
+    }
+    #all{
+        background-color: blueviolet;
+        text-align: center;
+        margin-top: 5%;
+    }
+    #words{
+        flex-wrap:wrap ;
+        
+    }
+    #blogs{
+        text-align: center;
+        margin-top: 5%;
+    }
+    #Tips{
+        flex-wrap: wrap;
+    }
+    .grid{
+        display: grid;
+        grid-template-columns:1 1fr ;
+    }
+    #of{
+        text-align: center;
+        margin-top: 10%;
+    }
+    #flex{
+        background-color: rgb(11, 32, 32);
+        color: aliceblue;
+        flex-wrap: wrap;
+        gap: 15%
+        
+    
+    }
+    #button1{
+        color: aliceblue;
+        background-color: coral;
+        border-radius: 25%;
+        
+    }
+    #img{
+        flex-wrap: wrap;
+        position: relative;
+    }
+    #faq{
+        flex-wrap:wrap ;
+    
+        margin-top: 10%;
+    }
+    #button2{
+        color: antiquewhite;
+        background-color: coral;
+        border-radius: 25%;
+    }
+
+}
+
+@media all and(max-width: 500px){
+
+
+#top{
+    background-image: url(image/hook.avif);
+    height: 300px;
+    width: 400px;
+    color: white;
+    margin-left: 15%;
+}
+#nav{
+    display: flex;
+    gap: 5%;
+}
+#choose{
+text-align: center;
+margin-top:  5%
+}
+#many{
+    flex-wrap: wrap;
+    gap: 10%;
+    margin-top: 5%;
+    
+}
+#product{
+    text-align: center;
+    margin-top: 2%;
+}
+#pillow{
+    flex-wrap: wrap;
+    gap: 5%;
+}
+#our{
+    text-align: center;
+    margin-top: 5%;
+
+}
+#coach{
+    flex-wrap: wrap;
+}
+#blank{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+#all{
+    background-color: blueviolet;
+    text-align: center;
+    margin-top: 5%;
+}
+#words{
+    display: flex;
+    justify-content: center;
+    
+}
+#blogs{
+    text-align: center;
+    margin-top: 5%;
+}
+#Tips{
+    display: flex;
+    justify-content: center;
+}
+.grid{
+    display: grid;
+    grid-template-columns:1 1fr ;
+}
+#of{
+    text-align: center;
+    margin-top: 10%;
+}
+#flex{
+    background-color: rgb(11, 32, 32);
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    gap: 15%
+    
+
+}
+#button1{
+    color: aliceblue;
+    background-color: coral;
+    border-radius: 25%;
+    
+}
+
+
+
+#faq{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+#button2{
+    color: antiquewhite;
+    background-color: coral;
+    border-radius: 25%;
+}
+#put{
+    text-align: center;
+}
+
+
+}
